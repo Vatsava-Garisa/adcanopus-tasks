@@ -57,7 +57,7 @@
             "header": [
               {
                 "key": "Authorization",
-                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJTcmVlIiwidXNlcm5hbWUiOiJTcmVlIiwiaWF0IjoxNzczNDg3MDA2LCJleHAiOjE3NzM0OTA2MDZ9.U9WPsmnqQWuz-3_Q6iHoNiLd9rMPg7A60scEKr12MQo",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNyZWUiLCJpYXQiOjE3NzM1MDIwNTksImV4cCI6MTc3MzUwNTY1OSwic3ViIjoiU3JlZSJ9.y_3JHvtSK5mv6wDKPWDxStBquFCHBFptl_WiBeQH5Oc",
                 "type": "text"
               }
             ],
@@ -83,9 +83,15 @@
               "type": "noauth"
             },
             "method": "GET",
-            "header": [],
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNyZWUiLCJpYXQiOjE3NzM1MDIwNTksImV4cCI6MTc3MzUwNTY1OSwic3ViIjoiU3JlZSJ9.y_3JHvtSK5mv6wDKPWDxStBquFCHBFptl_WiBeQH5Oc",
+                "type": "text"
+              }
+            ],
             "url": {
-              "raw": "http://localhost:8000/api/campaign/120244265354050440",
+              "raw": "http://localhost:8000/api/campaign/120244286443220440",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -94,7 +100,7 @@
               "path": [
                 "api",
                 "campaign",
-                "120244265354050440"
+                "120244286443220440"
               ]
             }
           },
@@ -107,10 +113,16 @@
               "type": "noauth"
             },
             "method": "POST",
-            "header": [],
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNyZWUiLCJpYXQiOjE3NzM1MDIwNTksImV4cCI6MTc3MzUwNTY1OSwic3ViIjoiU3JlZSJ9.y_3JHvtSK5mv6wDKPWDxStBquFCHBFptl_WiBeQH5Oc",
+                "type": "text"
+              }
+            ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"campaignName\": \"Create Campaign\"\r\n}",
+              "raw": "{\r\n    \"campaignName\": \"Campaign - 1\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -140,10 +152,16 @@
               "type": "noauth"
             },
             "method": "PATCH",
-            "header": [],
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNyZWUiLCJpYXQiOjE3NzM1MDIwNTksImV4cCI6MTc3MzUwNTY1OSwic3ViIjoiU3JlZSJ9.y_3JHvtSK5mv6wDKPWDxStBquFCHBFptl_WiBeQH5Oc",
+                "type": "text"
+              }
+            ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n    \"campaignId\": \"120244265348570440\", \r\n    \"campaignName\": \"Test Name\"\r\n}",
+              "raw": "{\r\n    \"campaignId\": \"120244286443220440\", \r\n    \"campaignName\": \"Campaign - One\"\r\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -173,9 +191,15 @@
               "type": "noauth"
             },
             "method": "DELETE",
-            "header": [],
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNyZWUiLCJpYXQiOjE3NzM1MDIwNTksImV4cCI6MTc3MzUwNTY1OSwic3ViIjoiU3JlZSJ9.y_3JHvtSK5mv6wDKPWDxStBquFCHBFptl_WiBeQH5Oc",
+                "type": "text"
+              }
+            ],
             "url": {
-              "raw": "http://localhost:8000/api/campaign/120244265348570440",
+              "raw": "http://localhost:8000/api/campaign/120244286443220440",
               "protocol": "http",
               "host": [
                 "localhost"
@@ -184,7 +208,7 @@
               "path": [
                 "api",
                 "campaign",
-                "120244265348570440"
+                "120244286443220440"
               ]
             }
           },
