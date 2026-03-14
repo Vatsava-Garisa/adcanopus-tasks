@@ -107,7 +107,7 @@ export const createCampaign = async (
             [Campaign.Fields.status]: "PAUSED",
             [Campaign.Fields.special_ad_categories]: ["NONE"],
             is_adset_budget_sharing_enabled: false,
-            execution_options: ["validate_only"] // Validate only
+            // execution_options: ["validate_only"] // Validate only
         };
         const campaign = await account.createCampaign([], campaignParams);
 
