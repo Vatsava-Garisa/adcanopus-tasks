@@ -1,5 +1,5 @@
 import "dotenv/config";
-import * as jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 
 const DEFAULT_JWT_EXPIRY = 60 * 60;
 const JWT_EXPIRY = Number(process.env.JWT_ACCESS_TOKEN_EXPIRY_SECONDS ?? DEFAULT_JWT_EXPIRY);
